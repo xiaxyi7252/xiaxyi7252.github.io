@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.m-button {
+    margin-left: 10px;
+}
+
+.btn1 {
+	width: 120px;
+	height: 30px;
+	background-color: #a6a3a3;
+	font-weight: bold;
+}
+.btn2 {
+	width: 120px;
+	height: 30px;
+	background-color: #a6a3a3;
+	font-weight: bold;
+}
+.btn3 {
+	width: 120px;
+	height: 30px;
+	background-color: #a6a3a3;
+	font-weight: bold;
+}
+
+.bigger {
+    margin-top: -90px;
+    margin-left: -100px;
+}
+
+.bigger-m-item {
+	width: 835px;
+	margin: 100px 0 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between; 
+    position: absolute;
+    filter:blur(0);
+}
+.sq1 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.sq2 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.sq3 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.sq4 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.sq5 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.sq6 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.sq7 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.sq8 {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 10px;
+}
+.m-bigger {
+	width: 250px;
+    height: 250px;
+    position: absolute;
+    background-color: #7e7c7c;
+    margin: 100px 0 0 300px;
+}
+
+.moving {
+	margin: 16px;
+}
+.moving>div {
+	position: absolute;
+	border: 1px solid;
+	width: 600px;
+	height: 300px;
+	margin: -2px 0 0 -5px;
+}
+#moving-font {
+	margin: 120px 182px 9px 250px;
+    font-size: 122px;
+    font-weight: bold;
+    margin-top: 64px;
+    margin-left: 207px;
+    color: #837e7e;
+}
+.moving>button {
+	width: 86px;
+    height: 33px;
+    margin-left: -6px;
+}
+
+.manage-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 12px;
+}
+.m-manage-box {
+	height: 43px;
+    width: 95%;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.m-manage-num {
+	height: 100%;
+	float: left;
+	width: 50px;
+	border-right: 1px solid;
+	text-align: center;
+	font-weight: bold;
+}
+.m-manage-del {
+	height: 44px;
+    float: right;
+    width: 149px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.m-manage-add {
+	width: 150px;
+    height: 50px;
+    margin-left: 451px;
+    margin-top: 25px;
+    color: white;
+    background-color: green;
+    border: 1px;
+}

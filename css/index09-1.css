@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+.info>.col-8>span:first-child{
+    font-size: 23px;
+    color: #4e4e51;
+    display: block;
+}
+.info>.col-8>span:nth-child(2){
+    font-size: 18px;
+    color: #666666;
+    display: block;
+}
+.info>.col-8>span:nth-child(3){
+    font-size: 18px;
+    font-weight: bolder;
+    color: #00C2AF;
+    display: block;
+}
+.container>.head>.row{
+    background-color: #00C2AF;
+    align-items: center;
+    border-bottom: 1px solid #008A7D;
+    height: 59px;
+}
+.container>.head>.row>.col-2{
+    background-color: #00C2AF;
+    height: 58px;
+    color: white;
+    padding: 15px; 
+
+}
+.container>.head>.row>.col-2: first-child{
+    font-size: 18px;
+    padding-right:0px ;
+    padding-left: 25px;
+}
+.container>.head>.row>.col-2:first-child:after{
+    content: " ∨";
+    width: 5px;
+    font-size: 18px;
+}
+.container>.head>.row>.col-8{
+    height: 34px;
+    margin: 7px 0px;
+    background-color: #00A595;
+    border-radius: 3px;
+    border: none;
+}
+.container>.head>.row>input::-webkit-input-placeholder{
+    color: #00C2AF;
+    font-weight: bolder;
+}
+.container>.select>.row>.col-3{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 25px;
+    padding: 0px;
+}
+.container>.select>.row>.col-3>.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin: auto;
+}
+#red{
+    background-color: #FF6640;
+}
+#orange{
+    background-color: #FF8905;
+}
+#deepblue{
+    background-color: #7089F6;
+}
+#wheat{
+    background-color: #FFBB53;
+}
+#wheat{
+    background-color: #FFBB53;
+}
+#shallowblue{
+    background-color: #00CDF0;
+}
+#space{
+    margin: 10px 0px;
+    height: 13px;
+    background-color: #F1F0ED;
+    border: 1px solid #E0D9CF;
+}
+.container>.maintext>.row>.col-4{
+    border-right: 2px solid #E0D9CF;
+}
+.container>.maintext>.row{
+
+}
+#t_head{
+   font-size: 21px;
+    font-weight: bolder;
+    color: #00A500;
+    margin: 5px 25px 0px;
+    display: block;
+}
+#t_main{
+    font-size: 18px;
+    color: #AFAFAF;
+    margin: -4px 25px;
+    display: block;
+}
+#t_picture{
+    height: 100px;
+    width: 100px;
+    background-color: #666666;
+    margin: 0px 25px;
+}
+div#\31 1 {
+    position: relative;
+    top: -102px;
+    left: -2px;
+    width: 90px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent #06c1ae transparent;
+    -webkit-transform: rotate(-45deg);
+    z-index: 0;
+}
+span#t_span {
+    font-size: 13px;
+    display: block;
+    position: relative;
+    top: -154px;
+    left: 11px;
+    color: #fff;
+    z-index: 1;
+    transform: rotate(-45deg);
+}
+.container>.maintext>.row>.col-4>#t_main{
+    margin-bottom: 20px;
+}
+.maintext>.row>.col-8>.row:first-child{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E0D9CF;
+}
+.maintext>.row>.col-8>.row>.col-6>#t_head{
+    color:red;
+}
+.maintext>.row>.col-8>.row>.col-6>#t_picture{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 70px;
+    width: 70px;
+}
+.time{
+    background-color: #666666;
+    padding: 0px 3px;
+    border-radius: 5px;
+    color: white;
+}
+.maintext2>.row>.col-6>.row>.col-6>#t_picture{
+    height: 70px;
+    width: 70px;
+}
+.commodity>.row{
+   margin-left: 9px;
+    margin-top: -3px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+#object{
+    padding: 10px 0px;
+    border-top: 2px solid #E0D9CF;
+    margin-left: 10px;
+}
+#discount:after{
+    content: "多优惠+";
+    color: orange;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+#nodiscount:after{
+    content: "门市价：xxx元";
+    color: #666666;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.info>.col-4{
+    padding:0px;
+}
+.info>.col-4>span{
+    display: block;
+    float: right;
+    margin-top: 70px;
+    font-size: 15px;
+    color: #666666;
+}
+.end{
+    background-color: #8FC6EA;
+}
+.end>span{
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 10px;
+    color: #00B2CE;
+    display: block;
+    float: left;
+}
